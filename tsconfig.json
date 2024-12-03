@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "rootDir":"./src",
+    "outDir": "./build/",
+    "module": "NodeNext",
+    "target": "ESNext",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "inlineSourceMap": true,
+    "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true
+  }, 
+  "include": [
+    "./src/"
+  ]
+}
