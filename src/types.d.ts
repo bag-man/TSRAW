@@ -1,5 +1,7 @@
 import { Axios, AxiosRequestConfig } from 'axios'
 
+declare module 'tsraw'
+
 export class TSRAW {
   private rAxios: Axios
 
