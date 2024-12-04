@@ -188,3 +188,5 @@ export class TSRAW {
     return res.data[1].data.children
   }
 }
+
+module.exports = TSRAW
