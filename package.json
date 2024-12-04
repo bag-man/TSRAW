@@ -1,8 +1,8 @@
 {
   "name": "tsraw",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "TypeScript Reddit API Wrapper",
-  "main": "build/TSRAW.js",
+  "type": "module",
   "types": "src/types.d.ts",
   "scripts": {
     "test": "echo No tests yet!",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typescript": "^5.7.2"
-  }
+  },
+  "exports": ["./build/TSRAW.js"]
 }
 
