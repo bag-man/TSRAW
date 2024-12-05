@@ -27,8 +27,10 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "dotenv": "^16.4.7",
     "typescript": "^5.7.2"
   },
-  "exports": ["./build/TSRAW.js"]
+  "exports": [
+    "./build/TSRAW.js"
+  ]
 }
-

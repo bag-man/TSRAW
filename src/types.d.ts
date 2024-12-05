@@ -15,7 +15,7 @@ export class TSRAW {
 
   edit (post: EditArgs): Promise<SubmitResp>
 
-  sticky (id: string): Promise<RedditRes>
+  sticky (id: string): Promise<RedditRes> // Returns 500 (https://redd.it/1h41n06)
 
   getSettings (subreddit: string): Promise<SettingsResp>
 

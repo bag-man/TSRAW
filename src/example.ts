@@ -1,3 +1,4 @@
+require('dotenv').config()
 import { TSRAW } from "./TSRAW.js"
 import { SubmitArgs } from "./types.js"
 
@@ -19,8 +20,7 @@ export class RedditBot {
   }
 
   async start() {
-    const thread = await this.createThread('YourSubreddit', dailyThread())
-    await this.r.sticky(thread.data.id) // TODO This 500's for some reason, use automod
+    const thread = await this.createThread('test', dailyThread())
   }
 
   async createThread(subreddit: string, content: ThreadContent) {
