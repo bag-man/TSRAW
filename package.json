@@ -1,6 +1,6 @@
 {
   "name": "tsraw",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "TypeScript Reddit API Wrapper",
   "type": "commonjs",
   "types": "src/types.d.ts",
