@@ -1,7 +1,11 @@
 {
   "name": "tsraw",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "TypeScript Reddit API Wrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bag-man/tsraw.git"
+  },
   "type": "commonjs",
   "types": "src/types.d.ts",
   "scripts": {
